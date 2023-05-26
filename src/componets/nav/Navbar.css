@@ -1,0 +1,55 @@
+.navbar{
+	position: absolute;
+	width: 100vw;
+    height: 9rem;
+	left:0;
+	top:0;    
+    position: fixed; 
+	z-index: 99;
+    font-size: 1.5rem;
+    color: white;
+    transition: all .3s;
+
+}
+
+.logo{
+    height: 5.5rem;
+    margin-left: 5rem;
+
+}
+
+ul{
+    list-style: none;
+}
+
+.pages{
+    margin-top: .7rem;
+    margin-right: 4rem;
+}
+
+.pages>ul{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.pages>ul>li{
+    margin: 2rem;
+
+}
+
+.link{
+    text-decoration: none;
+    color: aliceblue;
+    transition: .2s;
+}
+.link:hover{
+    transition: .2s;
+    color: var(--primC); 
+}
+
+.scroll{
+    transition: all .3s;
+    background-color: var(--priM);
+     /*backdrop-filter: blur(7px);*/
+}

@@ -1,0 +1,12 @@
+.circleIcon{
+    border-radius: 50%;
+    position: fixed;
+    bottom: 5rem;
+    right: 5rem;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+.circleIcon>img{
+    width: 7rem;
+}

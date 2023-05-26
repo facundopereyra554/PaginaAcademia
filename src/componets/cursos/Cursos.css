@@ -1,0 +1,66 @@
+.bannerCursos{
+    background:linear-gradient(rgba(5, 7, 12, 0.26),rgba(5, 7, 12, 0.384)), url(../cursos/assets/bannerCursos.jpg) ;
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.bannerCursos>img{
+    position: relative;
+    top: 40%;
+    width: 40rem;
+}
+
+.cursosGrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    padding: 6rem;
+}
+
+.cursosGrid>div{
+    border-radius: 20px;
+    background-color: wheat;
+    text-align: center;
+}
+
+.cursosGrid>div>img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.cursosCard{
+    display: grid;
+    grid-template-rows: repeat(3 ,1fr);
+}
+
+.cursosCard>h3{
+    margin-top: 1rem;    
+}
+
+.cursosCard>p{
+    font-size: 1.3rem;
+}
+
+.linkCurso{
+    text-decoration: none;
+    height: 4rem;
+    position: relative;    
+    background-color: var(--priM);
+    color: var(--primC);
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    margin: 0 2rem 2rem 2rem;
+    border: none;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+
+
+.linkCurso:hover{
+    background-color: #2b2b55;
+    transition: .3s;
+}

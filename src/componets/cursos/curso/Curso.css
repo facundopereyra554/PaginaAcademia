@@ -1,0 +1,97 @@
+.requi{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    background-color: var(--priM);     
+    color: var(--primC);
+}
+
+.titleCur{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.requi>div>p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-size: 20px;
+}
+  
+h1 {
+    text-align: center;
+    margin: 2rem 0 4rem 0;
+}
+  
+.accordion1 {
+    max-width: 600px;
+    margin: 2rem auto;
+    border: 1px solid var(--priM);
+    border-radius: 20px;
+    color: aliceblue;
+}
+  
+.accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+    background-color: var(--primC);
+    transition: .3s;
+}
+  
+.accordion-title:hover {
+    background-color: #6c50ad;
+    transition: .3s;
+}
+  
+.accordion-title,
+.accordion-content {
+    padding: 1rem;
+}
+  
+.accordion-content {
+    font-size: 1.5rem;
+    background-color: aliceblue;
+    color: var(--priM);
+}
+  
+@media screen and (max-width: 700px) {
+    body {
+      font-size: 18px;
+    }
+  
+    .accordion {
+      width: 90%;
+    }
+}
+
+.info>img{
+    width: 4rem;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: 10% 90%;
+    margin: 1rem;
+    background-color: var(--primC);
+    padding: 1.5rem;
+    border-radius: 20px;
+    color: aliceblue;
+}
+
+.info>p{
+    position: relative;
+    top: .4rem;
+    padding-left: 1rem;
+    border-left: 1px solid aliceblue;
+}
+

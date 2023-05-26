@@ -1,0 +1,158 @@
+.home{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.banner{
+    background:linear-gradient(rgba(5, 7, 12, 0.26),rgba(5, 7, 12, 0.384)), url(../home/assets/banner.jpg) ;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.banner>div{
+    color: beige;
+    margin: 0 auto;
+    font-family: monospace;
+    position: relative;
+    top: 40%;
+}
+
+.banner>div>img{
+    height: 12rem;
+    margin-bottom: 3rem;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    height: 94vh;
+}
+
+.gridNos{
+    height: 100%;
+    text-align: center;
+    padding: 4rem 6rem;
+}
+
+.box{
+    background-color: var(--priM);
+}
+
+.box1{
+    background-color: var(--primC);
+}
+
+.box2{
+    background-color: var(--priM);
+}
+
+.infoTemaLogo{
+    height: 10rem;
+    margin-bottom: 2.4rem;
+}
+
+.infoTemaTexto>h3{
+    font-size: 3.5rem;
+}
+
+.infoTemaTexto>p{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.colorM{
+    color: var(--priM);
+}
+
+.colorL{
+    color: var(--primC);
+}
+
+.aling{
+    text-align: left;
+}
+
+.nose{
+    height: 60rem;
+}
+
+.perspec{
+    padding:0 0 0 6rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+
+.perspec>div>img{
+    width: 100%;
+}
+
+.perspec>div>h3{
+    margin-top: 7rem;
+    font-size: 3.5rem;
+    color: var(--priM)
+}
+
+.box-per{
+    display: grid;
+    gap: 2rem;
+}
+
+.box-per>p{
+    font-size: 1.5rem;
+    color: var(--priM)
+}
+
+
+.timeline-Container{
+    margin-bottom: 5rem;
+}
+
+.timeline{
+    width: 100%;
+    height: 4rem;
+    background-color: var(--priM);
+    border-radius: 30px;
+    display: grid;
+    grid-template-columns: repeat(6 ,1fr);
+}
+
+.timeline>div{
+    cursor: pointer;
+    transition: .4s;
+}
+
+.timeline>div:hover{
+    background-color: #2b2b55;
+    transition: .4s;
+}
+
+.timeline>div>h3{
+    color: var(--primC);
+    text-align: center;
+    position: relative;
+    top: 1rem;
+
+}
+
+.timeline-Container>h3{
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.boxTime1{
+    background-color: var(--priM);
+    border-radius: 30px 0 0 30px;
+}
+
+.boxTime2{
+    background-color: var(--priM);
+    border-radius: 0 30px 30px 0;
+}

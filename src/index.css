@@ -1,0 +1,37 @@
+@font-face {
+    font-family: MondaRegular;
+    src: url(./assets/_font/MondaFuente/Monda-Regular.otf);
+}
+@font-face {
+    font-family: MilimetreRegular;
+    src: url(./assets/_font/MillimetreFuente/Millimetre/Millimetre-Regular.otf);
+}
+
+@font-face {
+  font-family: MondaBold;
+  src: url(./assets/_font/MondaFuente/Monda-Bold.otf);
+}
+:root{
+    --priM: #1A1A33;
+    --primC:#8754ff;
+    --secMC: #A490FF;
+    --terV:#C3EEA6;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 62.5%; /* 1 rem = 10px */    
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body{
+    margin: 0;
+    font-family: MondaRegular;
+    background-color: var(--primC);
+}

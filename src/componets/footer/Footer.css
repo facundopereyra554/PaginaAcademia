@@ -1,0 +1,50 @@
+.footerGrid{
+    background-color: var(--priM);
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 1rem;
+    text-align: center;
+}
+
+.footerGrid>div>img{
+    width: 100%;
+}
+
+.contact{
+    margin-top: 5rem;
+ 
+}
+
+.contact>h2{
+    font-size: 3rem;
+    color: var(--primC);   
+    margin-bottom: 2rem;
+}
+
+.contact>p{
+    font-size: 1.5rem;
+    color: var(--primC);
+}
+
+.contact>p>span{
+    color: var(--terV);
+}
+
+.redes{
+    margin-top: 5rem;
+}
+
+.redes>h2{
+    font-size: 3rem;
+    color: var(--primC);   
+    margin-bottom: 2rem;
+}
+
+.redes>p{
+    font-size: 1.5rem;
+    color: var(--primC);
+}
+
+.red-social>a{
+    margin: 0 1rem;
+}
