@@ -42,13 +42,13 @@ function Cursos() {
 
     return (
         <>
-        <div className="bannerCursos">
+        <div className="bannerCursos ban">
             <img src="../src/componets/cursos/assets/curT.png" alt="" />
         </div>
         <div className="cursosGrid">
             {
                 cursos.map((curso) => {
-                    return(<CardCurso nombre={curso.nombre} descripcion={curso.descripcion} idCurso={curso.idCurso}/>)
+                    return(<CardCurso nombre={curso.nombre} descripcion={curso.descripcion} idCurso={curso.idCurso} imgSrc={curso.imagen}/>)
                 })
             }
             

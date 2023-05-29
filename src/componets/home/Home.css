@@ -181,5 +181,13 @@
     padding: 3rem;
     border-radius: 10px;
     font-size: 1.7rem;
+    transition: .5s;
 
+}
+
+.opinionsGrid>p:hover{
+    background-color: var(--terV);
+    color: var(--priM);
+    transition: .5s;
+    cursor: pointer;
 }

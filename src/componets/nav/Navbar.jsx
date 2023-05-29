@@ -4,6 +4,7 @@ import Home from "../home/Home"
 import  { useEffect } from "react"
 import Cursos from "../cursos/cursos";
 import Curso1 from "../cursos/curso/Curso1";
+import Curso3 from "../cursos/curso/Curso3";
 
 
 function Navbar() {
@@ -31,8 +32,9 @@ function Navbar() {
         <>   
         <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Cursos" element={<Cursos/>} />
+            <Route path="/Cursos" element={<Cursos /> } />
             <Route path="/Curso1" element={ <Curso1/> }  />
+            <Route path="/Curso3" element={ <Curso3/> }  />
         </Routes>
         <section className='navbar'>
             <img src="../src/componets/nav/assets/logoClaro.png" alt="logo" className="logo" />

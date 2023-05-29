@@ -1,0 +1,8 @@
+.bannerProgramadoras{
+    background:linear-gradient(rgba(5, 7, 12, 0.26),rgba(5, 7, 12, 0.384)), url(../../assets/bannerProgramadoras.jpg) ;
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}

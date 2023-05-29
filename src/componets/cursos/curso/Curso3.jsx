@@ -1,10 +1,11 @@
 import Footer from "../../footer/Footer"
 import "../curso/Curso.css"
+import "../curso/styles/Programadoras.css"
 import Accordion from "./Accordion";
 import  { useEffect } from "react";
 
 
-function Curso() {
+function Curso3() {
 
     useEffect(() => {
         window.scrollTo(0, 0);
@@ -14,10 +15,11 @@ function Curso() {
     const accordionData = [
         {
           title: 'Descripcion',
-          content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-          laborum cupiditate possimus labore, hic temporibus velit dicta earum
-          suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-          voluptatem.`
+          content: `El hecho de que necesitemos a más mujeres en el mundo de la programación, nos condujo a lanzar nuevamente el curso de Programadoras en este 2023.
+          Actualmente, 500+ mujeres y diversidades se encuentran aprendiendo programación a través de nuestros cursos.
+           ¡Durante el año 2022 hemos tenido 250+ egresadas que recibieron su certificado!
+          ¿Qué esperas para ser una de ellas?
+          `
         },
         {
           title: 'Que Aprenderas?',
@@ -38,8 +40,8 @@ function Curso() {
 
     return (
         <>
-        <div className="bannerCursos ban">
-            <img src="../src/componets/cursos/assets/web_1000pro.png"/>
+        <div className="bannerProgramadoras ban">
+        <img src="../src/componets/cursos/assets/web_programadoras.png"/>
 
         </div>
         <div className="requi">
@@ -90,4 +92,4 @@ function Curso() {
     )
 }
 
-export default Curso
+export default Curso3
