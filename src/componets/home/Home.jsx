@@ -74,6 +74,31 @@ function Home() {
 
                
         </div>
+        <div className="opinions">
+            <h3>¿Son recomendados los cursos de Academia CIMNE-IBER?  ¡Te dejamos algunos comentarios de nuestros/as egresados/as!
+            </h3>
+            <div className="opinionsGrid">
+                <p>
+                    “Hubo varias cosas que me gustaron, los métodos de enseñanza del profe, la tutora siempre atenta a nuestras dudas, el contenido era muy claro, los ejercicios eran muy útiles para practicar para los desafíos y desarrollar un poco más la lógica. Me gustaría que la metodología sea igual para el siguiente cuatrimestre.” 
+                </p>
+                <p>
+                    “Me gusto que haya partido desde cero prácticamente y también se hayan realizado clases de refuerzos para algunos temas que requerían verlo con más detenimiento”
+                </p>
+                <p>
+                    “Desde ya muy agradecida por la oportunidad que se nos dio. A todos los que hicieron posible este curso, para mí significa mucho osea nuevas oportunidades … Muchísimas Gracias a todos profes tutores y demás..”
+                </p>
+                <p>
+                    “Estoy muy feliz por haber podido finalizar el curso y quiero agradecer por ésta gran oportunidad de formación,me pareció excelente ya que he aprendido demasiado durante el cursado. También quiero agradecer por la buena predisposición que tuvo siempre todo el equipo de 1000 programadores”. 
+                </p>
+                <p>
+                    “Quiero felicitar a los Coordinadores y Profesores de la introducción a la Programación con Java por el gran empeño que le pusieron al curso se nota el esfuerzo además de las ganas de enseñar estoy muy satisfecho con lo que aprendí”
+                </p>
+                <p>
+                    “Quiero agradecer a todos de 1000 programadores, ya que gracias a su organización y el aprendizaje tengo la oportunidad de seguir capacitandome en la empresa Silentium apps”. 
+                </p>
+            </div>
+
+        </div>
         <div className="timeline-Container">
             <h3>Nuestro Recorrido</h3>
             <div className="timeline container p-0">
@@ -97,6 +122,7 @@ function Home() {
                 </div>
             </div>
         </div>
+
     <Footer/>        
     </section>
 

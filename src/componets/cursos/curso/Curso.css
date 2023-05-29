@@ -1,9 +1,8 @@
 .requi{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding: 2rem;
-    background-color: var(--priM);     
-    color: var(--primC);
+    padding: 2rem;   
+    color: var(--priM);
 }
 
 .titleCur{
@@ -34,7 +33,6 @@ h1 {
 .accordion1 {
     max-width: 600px;
     margin: 2rem auto;
-    border: 1px solid var(--priM);
     border-radius: 20px;
     color: aliceblue;
 }
@@ -44,12 +42,12 @@ h1 {
     flex-direction: row;
     justify-content: space-between;
     cursor: pointer;
-    background-color: var(--primC);
+    background-color: var(--priM);
     transition: .3s;
 }
   
 .accordion-title:hover {
-    background-color: #6c50ad;
+    background-color: #2e2e57;
     transition: .3s;
 }
   
@@ -82,7 +80,7 @@ h1 {
     display: grid;
     grid-template-columns: 10% 90%;
     margin: 1rem;
-    background-color: var(--primC);
+    background-color: var(--priM);
     padding: 1.5rem;
     border-radius: 20px;
     color: aliceblue;
@@ -93,5 +91,36 @@ h1 {
     top: .4rem;
     padding-left: 1rem;
     border-left: 1px solid aliceblue;
+}
+
+
+.inscripcion{
+    margin-top: 10rem;
+    background-color: var(--priM);
+
+}
+
+.subTitles{
+    font-size: 3rem;
+    color: var(--primC);
+    margin-bottom: 3rem;
+}
+
+.gridIscr{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 2rem;
+    padding: 5rem;  
+    color: var(--primC);  
+}
+
+.imgGrid{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.preguntas{
+    background-color: aliceblue;
+    text-align: center;
 }
 

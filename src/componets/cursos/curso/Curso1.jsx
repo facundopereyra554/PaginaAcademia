@@ -40,12 +40,14 @@ function Curso() {
         <>
         <div className="bannerCursos">
             <img src="../src/componets/cursos/assets/curT.png"/>
+
         </div>
         <div className="requi">
             <div>
                 <h1>Sobre el Curso</h1>
                 <div className="accordion1">
                     {accordionData.map(({ title, content }) => (
+                    // eslint-disable-next-line react/jsx-key
                     <Accordion title={title} content={content} />
                     ))}
                 </div>                
@@ -65,12 +67,25 @@ function Curso() {
                     <p>Descargar Programa</p>
                 </div>
             </div>
-            <div>
-
+        </div>  
+        <div className="inscripcion">
+            <div className="gridIscr">
+                <div><h3 className="subTitles">Metodologia De Aprendizaje</h3>
+                <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum neque non libero quisquam hic aliquam provident impedit? Eaque, obcaecati aspernatur! Explicabo odio accusantium nobis.</p>
+                <ul>
+                    <li><i className='bx bxs-label' ></i> Clases online en vivo con profesionales expertos.</li>
+                    <li> <i className='bx bxs-label' ></i> Grupos reducidos de 15 personas en promedio.</li>
+                    <li> <i className='bx bxs-label' ></i>Todas las clases quedan grabadas.</li>
+                </ul>
+                </div>
+                <div><img className="imgGrid" src="../src/componets/cursos/assets/aprendizaje.jpg" alt="" /></div>
             </div>
         </div>
-
+        <div className="preguntas container">
+            <h3 className="subTitles">Preguntas Frecuentes</h3>
+        </div>      
         <Footer/>
+        
         </>
     )
 }

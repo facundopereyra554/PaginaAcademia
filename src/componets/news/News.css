@@ -1,12 +1,65 @@
 .circleIcon{
     border-radius: 50%;
     position: fixed;
-    bottom: 5rem;
-    right: 5rem;
-    padding: 2rem;
-    background-color: #fff;
+    bottom: 1rem;
+    right: 1rem;
+    padding: 1rem;
+    background-color: var( --secMC);
+    cursor: pointer;
+    animation: flotar 3s ease-in-out infinite;
 }
 
 .circleIcon>img{
     width: 7rem;
 }
+
+.newBox{
+    height: 40rem;
+    width: 40rem;
+    border-radius: 20px 20px 0 20px;
+    background-color: aliceblue;
+    position: fixed;
+    bottom: 9rem;
+    right: 10rem;
+    z-index: 99;
+    overflow-y: scroll;
+    padding: 2rem;
+}
+
+.dactive{
+    display: none;
+}
+
+.newBox>h2{
+    text-align: center;
+    font-size: 3rem;
+    color: var(--secMC);
+    margin-bottom: 2rem;
+}
+
+.newBox>h3{
+    margin: 0 0 2rem 0;
+}
+
+.newBox>p{
+    font-size: 1.5rem;
+}
+
+.newBox>img{
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+/*Animaciones*/
+
+@keyframes flotar {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
