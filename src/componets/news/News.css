@@ -23,7 +23,26 @@
     right: 10rem;
     z-index: 99;
     overflow-y: scroll;
-    padding: 2rem;
+    padding: 1rem 2rem;
+}
+
+@media (max-width:760px) {
+    .circleIcon{
+        bottom: 3rem;
+        right: 3rem;
+    } 
+
+    .circleIcon>img{
+        width: 5rem;
+    }
+
+    .newBox{
+        height: 70%;
+        width: 70%;
+        bottom: 10rem;
+        right: 9rem; 
+    }
+    
 }
 
 .dactive{
@@ -63,3 +82,11 @@
       transform: translateY(0);
     }
   }
+
+.close{
+    font-size: 3rem;
+    margin: 0;
+    text-align: end;
+    color: var(--secMC);
+    cursor: pointer;
+}

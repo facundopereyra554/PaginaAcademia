@@ -11,14 +11,40 @@
     position: relative;
     top: 40%;
     width: 40rem;
+}  
+
+@media (max-width:760px) {
+    .ban>img{
+        position: relative;
+        top: 40%;
+        width: 20rem;
+    }    
 }
 
 .cursosGrid{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
     padding: 6rem;
 }
+
+@media (max-width:450px) {
+    .cursosGrid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+
+@media (min-width:1000px) {
+    .cursosGrid{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        padding: 6rem;
+    }    
+}
+
 
 .cursosGrid>div{
     border-radius: 20px;

@@ -14,25 +14,19 @@ function Curso() {
     const accordionData = [
         {
           title: 'Descripcion',
-          content: `Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis sapiente
-          laborum cupiditate possimus labore, hic temporibus velit dicta earum
-          suscipit commodi eum enim atque at? Et perspiciatis dolore iure
-          voluptatem.`
+          content: `Mil Programadores se centra en la capacitación de salteños y salteñas en programación empleando los lenguajes PYTHON y JAVA como respuesta a la demanda puntual del sector de las Tecnologías de la Información y la Comunicación (TICs). Este proyecto se focaliza en la inserción en el mercado laboral de los perfiles capacitados y en la generación de un ecosistema de innovación y tecnología en Salta como visión de espacio generador de igualdad de oportunidades y desarrollo. Actualmente este proyecto se encuentra en su tercera edición.`
         },
         {
           title: 'Que Aprenderas?',
-          content: `Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia veniam
-          reprehenderit nam assumenda voluptatem ut. Ipsum eius dicta, officiis
-          quaerat iure quos dolorum accusantium ducimus in illum vero commodi
-          pariatur? Impedit autem esse nostrum quasi, fugiat a aut error cumque
-          quidem maiores doloremque est numquam praesentium eos voluptatem amet!
-          Repudiandae, mollitia id reprehenderit a ab odit!`
+          content: `Podrás aprender programación desde cero y adquirir las herramientas básicas para poder desempeñarte en el ámbito laboral. `
         },
         {
           title: 'Requisitos',
-          content: `Sapiente expedita hic obcaecati, laboriosam similique omnis architecto ducimus magnam accusantium corrupti
-          quam sint dolore pariatur perspiciatis, necessitatibus rem vel dignissimos
-          dolor ut sequi minus iste? Quas?`
+          content: `Ser mayor de 18 años.
+          Computadora o notebook de requerimientos básicos
+          Conexión a Internet
+          Aplicativo de videoconferencia (Zoom)
+          `
         }
       ];
 
@@ -40,7 +34,6 @@ function Curso() {
         <>
         <div className="bannerCursos ban">
             <img src="../src/componets/cursos/assets/web_1000pro.png"/>
-
         </div>
         <div className="requi">
             <div>
@@ -56,11 +49,11 @@ function Curso() {
                 <h1>Informacion de Cursada</h1>
                 <div className="info">
                     <img src="../src/componets/cursos/assets/calendario.png" alt="" />
-                    <p>Duracion: 4 Meses</p>
+                    <p>Duracion: 5 Meses</p>
                 </div>
                 <div className="info">
                     <img src="../src/componets/cursos/assets/reloj.png" alt="" />
-                    <p> Carga Horaria: 2 clases semanales de 2 horas</p>
+                    <p> Carga Horaria: 190 Horas</p>
                 </div>
                 <div className="info">
                     <img src="../src/componets/cursos/assets/descargar.png" alt="" />

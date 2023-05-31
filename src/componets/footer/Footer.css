@@ -1,14 +1,24 @@
 .footerGrid{
-    background-color: var(--priM);
-    display: grid;
-    grid-template-columns: repeat(3 ,1fr);
-    gap: 1rem;
-    text-align: center;
+    background-color: var(--priM);  
+    text-align: center;  
+}
+.footerGrid>div>img{
+    width: 50%;
+} 
+
+@media (min-width:760px) {
+    .footerGrid{
+        display: grid;
+        grid-template-columns: repeat(3 ,1fr);
+        gap: 1rem;
+
+    }
+    .footerGrid>div>img{
+        width: 100%;
+    }  
 }
 
-.footerGrid>div>img{
-    width: 100%;
-}
+
 
 .contact{
     margin-top: 5rem;

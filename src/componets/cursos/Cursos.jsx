@@ -1,3 +1,5 @@
+/* eslint-disable react/jsx-key */
+
 import CardCurso from "./card/CardCurso"
 import "../cursos/Cursos.css"
 import Footer from "../footer/Footer"
@@ -13,28 +15,17 @@ function Cursos() {
     let cursos = [
         {
             idCurso: 1,
-            nombre: "Introduccion al desarollo con Python",
-            descripcion: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, officiis.",
-            imagen:"../src/componets/cursos/assets/cursosCard.jpg",
-        },
-        {
-            idCurso: 2,
             nombre: "1000 Programadores",
             descripcion: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, officiis.",
-            imagen:"../src/componets/cursos/assets/cursosCard.jpg",
+            imagen:"../src/componets/cursos/assets/cursosCard1000.jpg",
         },
         {  
             idCurso: 3,
             nombre: "Programadoras",
             descripcion: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, officiis.",
-            imagen:"../src/componets/cursos/assets/cursosCard.jpg",
+            imagen:"../src/componets/cursos/assets/cursosCardPra.jpg",
         },
-        {
-            idCurso: 4,
-            nombre: "Introduccion al desarollo con Python",
-            descripcion: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, officiis.",
-            imagen:"../src/componets/cursos/assets/cursosCard.jpg",
-        },
+
     ]
 
 

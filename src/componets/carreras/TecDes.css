@@ -1,0 +1,129 @@
+.titleCar{
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+.bannerCursosCar{
+    background:linear-gradient(rgba(5, 7, 12, 0.26),rgba(5, 7, 12, 0.384)), url(../carreras/assets/bannerCarreras.jpg) ;
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.ban>img{
+    position: relative;
+    top: 40%;
+    width: 40rem;
+}  
+
+@media (max-width:760px) {
+    .ban>img{
+        position: relative;
+        top: 40%;
+        width: 20rem;
+    }    
+}
+
+.gridCarreras{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    padding: 6rem;
+}
+
+@media (max-width:450px) {
+    .gridCarreras{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+
+
+@media (min-width:1000px) {
+    .gridCarreras{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2rem;
+        padding: 6rem;
+    }    
+}
+
+
+.gridCarreras>div{
+    border-radius: 20px;
+    background-color: wheat;
+    text-align: center;
+}
+
+.gridCarreras>div>img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.cursosCard{
+    display: grid;
+    grid-template-rows: repeat(3 ,1fr);
+}
+
+.cursosCard>h3{
+    margin-top: 1rem;    
+}
+
+.cursosCard>p{
+    font-size: 1.3rem;
+}
+
+.linkCurso{
+    text-decoration: none;
+    height: 4rem;
+    position: relative;    
+    background-color: var(--priM);
+    color: var(--primC);
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    margin: 0 2rem 2rem 2rem;
+    border: none;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+
+
+.linkCurso:hover{
+    background-color: #2b2b55;
+    transition: .3s;
+}
+
+.conteTuds{
+    background-color: #F3F0F0;
+    padding: 4rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.textTi{
+    font-size: 3.5rem;
+}
+
+.textPa{
+    font-size: 1.5rem;
+}
+
+.bannerCarrera{
+    background:linear-gradient(rgba(5, 7, 12, 0.26),rgba(5, 7, 12, 0.384)), url(../carreras/assets/bannerCarreras.jpg) ;
+    height: 40rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+}
+
+.gridCarr{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}

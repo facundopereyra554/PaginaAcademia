@@ -6,3 +6,9 @@
     background-position: center center;
     text-align: center;
 }
+
+.titleCourse{
+    font-size: 4rem;
+    margin-top: 3rem;
+    text-align: center;
+}

@@ -17,7 +17,8 @@ function Footer() {
                 <h2>Redes</h2>
                     <div className="red-social">
                         <a href="https://www.instagram.com/academiacimneiber/" target="_blank"><i className='bx bxl-instagram fs-1'></i></a>
-                        <a href="https://twitter.com/academiacimneiber" target="_blank"><i className='bx bxl-twitter fs-1'></i></a><a href="https://www.facebook.com/academiacimneiber" target="_blank"><i className='bx bxl-facebook-square fs-1'></i></a>
+                        <a href="https://twitter.com/academiacimneiber" target="_blank"><i className='bx bxl-twitter fs-1'></i></a>
+                        <a href="https://www.facebook.com/academiacimneiber" target="_blank" rel="https://www.facebook.com/academiacimneiber" target="_blank"><i className='bx bxl-facebook-square fs-1'></i></a>
                         <a href="https://www.youtube.com/channel/UCiAHFbMRA0JXI1oR5Dn4Tkg" target="_blank"><i className='bx bxl-youtube fs-1'></i></a>
                         <a href="https://www.linkedin.com/company/academiacimneiber/" target="_blank"><i className='bx bxl-linkedin-square fs-1'></i></a>
                     </div>
