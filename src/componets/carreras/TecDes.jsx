@@ -2,6 +2,7 @@
 
 import './TecDes.css'
 import CardCarrera from './cardCarrera/CardCarrera'
+import Footer from '../Footer/Footer'
 
 function TecDes() {
 
@@ -24,7 +25,8 @@ function TecDes() {
                     return(<CardCarrera nombre={carrera.nombre} descripcion={carrera.descripcion} idCarrera={carrera.idCarrera} imgSrc={carrera.imagen}/>)
                 })
             }
-        </div>        
+        </div> 
+        <Footer/>    
         </>
     )
 }

@@ -17,7 +17,7 @@ function News() {
             <img src="../src/componets/news/assets/newsIcon.png" alt="" />
         </div>
         <div className={classBox}>
-            <h6 className='close' onClick={hanbledisplayBox}>x</h6>
+            <h6 className='close' onClick={hanbledisplayBox}><i class='bx bx-x-circle'></i></h6>
             <h2>Noticias</h2>
             <h3>Tecnicatura en Desarrollo de Software</h3>
             <img src="../src/componets/news/assets/TecFirma.jpg" alt="" />
