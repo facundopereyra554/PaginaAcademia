@@ -178,8 +178,7 @@
     border-radius: 0 30px 30px 0;
 }
 
-.opinions{
-    margin-bottom: 5rem;    
+.opinions{  
     background-color: var(--priM);
     padding: 6rem;
 }
@@ -395,4 +394,25 @@
 
 .subTitle{
     font-size: 3.5rem;
+    text-align: center;
+}
+
+.gridPlata{
+    background-color: var(--priM);
+    color: var(--primC);
+    padding: 6rem;
+    margin-bottom: 5rem;
+}
+
+.gridPlata>div>h3{
+    font-size: 3.5rem;
+}
+
+.gridPlata>div>img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.gridPlata>div>p{
+    font-size: 1.5rem;
 }

@@ -86,11 +86,11 @@ function Curso3() {
         <div className="inscripcion">
             <div className="gridIscr">
                 <div><h3 className="subTitles">Metodologia De Aprendizaje</h3>
-                <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum neque non libero quisquam hic aliquam provident impedit? Eaque, obcaecati aspernatur! Explicabo odio accusantium nobis.</p>
+                <p className="mb-5">Ofrecemos formación bajo la modalidad virtual e implementando la metodología ``learning by doing”, a través de actividades de aprendizaje innovadoras con especial foco en la práctica, diseñada por un equipo de expertos desarrolladores, pedagogos que constantemente es validada por estudiantes. Así, quienes participan de nuestros cursos pueden potenciar sus habilidades y adquirir los conocimientos de manera más sólida.</p>
                 <ul>
-                    <li><i className='bx bxs-label' ></i> Clases online en vivo con profesionales expertos.</li>
-                    <li> <i className='bx bxs-label' ></i> Grupos reducidos de 15 personas en promedio.</li>
-                    <li> <i className='bx bxs-label' ></i>Todas las clases quedan grabadas.</li>
+                    <li><i className='bx bxs-label' ></i> +500 inscriptas</li>
+                    <li> <i className='bx bxs-label' ></i> 436 Personas que cursaron regularmente </li>
+                    <li> <i className='bx bxs-label' ></i> 150 Aprobaron la 1° Edición</li>
                 </ul>
                 </div>
                 <div><img className="imgGrid" src="../src/componets/cursos/assets/aprendizaje.jpg" alt="" /></div>
@@ -129,14 +129,17 @@ function Curso3() {
         <div className="inscripcion">
             <div className="gridIscr">
                 <div><h3 className="subTitles">Plataforma Programadoras</h3>
-                <p className="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis dolorum neque non libero quisquam hic aliquam provident impedit? Eaque, obcaecati aspernatur! Explicabo odio accusantium nobis.</p>
-                <ul>
+                <p className="mb-5">Desde el equipo de Academia CIMNE-IBER, hemos creado una plataforma con el fin de subir las clases grabadas y que únicamente las personas inscritas al curso puedan acceder a las mismas.
+                Si estás cursando en cualquiera de los tres cursos de Programadoras, te facilitamos tu ingreso a la misma a través del siguiente link: <br /> <br />
+                https://programadoras.academiacimneiber.com/
+                </p>
+                {/* <ul>
                     <li><i className='bx bxs-label' ></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae, minima!.</li>
                     <li> <i className='bx bxs-label' ></i> Lorem ipsum dolor sit amet..</li>
                     <li> <i className='bx bxs-label' ></i>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-                </ul>
+                </ul> */}
                 </div>
-                <div><img className="imgGrid" src="../src/componets/cursos/assets/aprendizaje.jpg" alt="" /></div>
+                <div><img className="imgGrid" src="../src/componets/cursos/assets/plataforma.png" alt="" /></div>
             </div>
         </div>
 

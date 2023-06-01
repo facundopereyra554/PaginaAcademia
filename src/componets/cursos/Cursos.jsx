@@ -16,13 +16,19 @@ function Cursos() {
         {
             idCurso: 1,
             nombre: "1000 Programadores",
-            descripcion: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, officiis.",
+            descripcion: "Se focaliza en la inserción en el mercado laboral de los perfiles capacitados.",
             imagen:"../src/componets/cursos/assets/cursosCard1000.jpg",
+        },
+        {
+            idCurso: 2,
+            nombre: "Mil Programadores Nacion",
+            descripcion: "es un proyecto realizado en el marco d",
+            imagen:"../src/componets/cursos/assets/cursosCard1000na.jpg",
         },
         {  
             idCurso: 3,
             nombre: "Programadoras",
-            descripcion: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, officiis.",
+            descripcion: "¡es uno de nuestros grandes logros!",
             imagen:"../src/componets/cursos/assets/cursosCardPra.jpg",
         },
 

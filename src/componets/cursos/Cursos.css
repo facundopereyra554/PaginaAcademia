@@ -59,7 +59,7 @@
 
 .cursosCard{
     display: grid;
-    grid-template-rows: repeat(3 ,1fr);
+    grid-template-rows: 10% 80% 10%;
 }
 
 .cursosCard>h3{

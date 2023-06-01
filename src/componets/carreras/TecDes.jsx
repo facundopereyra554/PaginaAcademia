@@ -1,8 +1,9 @@
 /* eslint-disable react/jsx-key */
 
+import Footer from '../footer/Footer'
 import './TecDes.css'
 import CardCarrera from './cardCarrera/CardCarrera'
-import Footer from '../Footer/Footer'
+
 
 function TecDes() {
 
@@ -17,7 +18,7 @@ function TecDes() {
     return (
         <>
         <div className="bannerCursosCar ban">
-            <h3 className='titleCar'>Carreras</h3>
+            <img src="../src/componets/carreras/assets/web_carreras.png" alt="" />
         </div>
         <div className='gridCarreras'>
             {
@@ -26,7 +27,7 @@ function TecDes() {
                 })
             }
         </div> 
-        <Footer/>    
+        <Footer/>   
         </>
     )
 }

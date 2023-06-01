@@ -97,6 +97,16 @@ function Home() {
             </div>
 
         </div>
+        <div className="gridPlata">
+            <div>
+                <h3>PLATAFORMA EDUCATIVA</h3> <br />
+                <img src="../src/componets/home/assets/platafor.png " alt="" /> <br /> <br />
+                <p>
+                    A través de nuestra propia plataforma de aprendizaje facilitamos el acceso al material de estudio, foros de consulta/debate que fomentan el intercambio de conocimiento entre estudiantes y docentes.
+                    Habilitamos espacios de autoevaluación a través de cuestionarios que permiten que los participantes reciban un feedback sobre su evolución durante el cursado y detecten sobre qué temas profundizar y mejorar.
+                </p>
+            </div>
+        </div>
         {/*<div className="timeline-Container">
             <h3>Nuestro Recorrido</h3>
             <div className="timeline container p-0">
@@ -119,9 +129,10 @@ function Home() {
                     <h3>6 Jul 2021</h3>
                 </div>
             </div>
-        </div>*/}
+        </div>*/}            
+        <h3 className="subTitle" data-aos="fade-up">Nuestro Recorrido</h3>
         <div className="test">
-            <h3 className="subTitle text-center" data-aos="fade-up">Nuestro Recorrido</h3>
+
             <div className="wrapperSli">
                 <div className="center-line">
                     <a href="#" className="scroll-icon"><i className="fas fa-caret-up"></i></a>
