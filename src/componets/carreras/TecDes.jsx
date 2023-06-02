@@ -17,13 +17,13 @@ function TecDes() {
             idCarrera: 1,
             nombre: "Tecnicatura en Desarrollo de Software",
             descripcion: "Tiene como objetivo principal la formación tecnológica de hombres y mujeres de conformidad a nuevas demandas",
-            imagen:"../src/componets/carreras/assets/tuds.jpg",
+            imagen:"../assets/tuds.jpg",
         },
     ]
     return (
         <>
         <div className="bannerCursosCar ban">
-            <img src="../src/componets/carreras/assets/web_carreras.png" alt="" />
+            <img src="../assets/web_carreras.png" alt="" />
         </div>
         <div className='gridCarreras'>
             {

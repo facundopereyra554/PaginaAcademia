@@ -30,7 +30,7 @@ function Navbar() {
         <>   
 
         <section className='navbar'>
-            <img src="../src/componets/nav/assets/logoClaro.png" alt="logo" className="logo" />
+            <img src="../assets/logoClaro.png" alt="logo" className="logo" />
             <div className="pages">
                 <ul>
                     <li><Link to="/" className="link">Inicio</Link></li>

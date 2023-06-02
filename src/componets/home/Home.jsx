@@ -16,20 +16,20 @@ function Home() {
         <News/>
         <div className="banner">
             <div>
-                <img src="../src/componets/home/assets/logoClaro.png" alt="" />
+                <img src="../assets/logoClaro.png" alt="" />
             </div>
         </div>
         <div className="infoTeam">
             <div className="grid-container">
                 <div  className="gridNos box">
-                    <img className="infoTemaLogo" src="../src/componets/home/assets/team.png" alt="AboutUsLogo" />
+                    <img className="infoTemaLogo" src="../assets/team.png" alt="AboutUsLogo" />
                     <div className="infoTemaTexto">
                         <h3 className="colorL mb-5">¿Quiénes somos?</h3>
                         <p className="colorL ">La Academia CIMNE-IBER es un segmento del Centro Iberoamericano de Investigación que se ocupa de la gestión y administración de actividades académicas y de formación. Está constituida por un equipo de profesionales de distintas disciplinas que comparten la pasión por compartir y generar oportunidades mediante capacitaciones que permitan que salteños y salteñas se formen en programación.</p>
                     </div>
                 </div>
                 <div className="gridNos box1">
-                    <img className="infoTemaLogo" src="../src/componets/home/assets/objetivos.png" alt="AboutUsLogo" />
+                    <img className="infoTemaLogo" src="../assets/objetivos.png" alt="AboutUsLogo" />
                     <div className="infoTemaTexto">
                         <h3 className="colorM mb-5">Objetivos</h3>
                         <p className="colorM aling"><i className='bx bxs-label' ></i> Formar y fomentar recursos humanos calificados en programación. <br /> <br />
@@ -40,7 +40,7 @@ function Home() {
                     </div>
                 </div>
                 <div className="gridNos box2">
-                    <img className="infoTemaLogo" src="../src/componets/home/assets/val.png" alt="AboutUsLogo" />
+                    <img className="infoTemaLogo" src="../assets/val.png" alt="AboutUsLogo" />
                     <div className="infoTemaTexto">
                         <h3 className="colorL mb-5">Sobre Nosotros</h3>
                         <p className="colorL aling">Mision: Generar un espacio para un aprendizaje integral que permita la construcción de conocimientos a través de un trabajo colaborativo.</p> <br />
@@ -69,7 +69,7 @@ function Home() {
                     </div>                 
             </div>
             <div>
-                <img src="../src/componets/home/assets/woman2.png" alt="woman" />
+                <img src="../assets/woman2.png" alt="woman" />
             </div> 
         </div>
         <div className="opinions">
@@ -100,7 +100,7 @@ function Home() {
         <div className="gridPlata">
             <div>
                 <h3>PLATAFORMA EDUCATIVA</h3> <br />
-                <img src="../src/componets/home/assets/platafor.png " alt="" /> <br /> <br />
+                <img src="../assets/platafor.png " alt="" /> <br /> <br />
                 <p>
                     A través de nuestra propia plataforma de aprendizaje facilitamos el acceso al material de estudio, foros de consulta/debate que fomentan el intercambio de conocimiento entre estudiantes y docentes.
                     Habilitamos espacios de autoevaluación a través de cuestionarios que permiten que los participantes reciban un feedback sobre su evolución durante el cursado y detecten sobre qué temas profundizar y mejorar.

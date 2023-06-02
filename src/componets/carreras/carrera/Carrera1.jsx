@@ -7,7 +7,7 @@ function Carrera1() {
   return (
     <>
     <div className="bannerCarrera ban">
-        <img src="../src/componets/carreras/assets/Tecnicatura.png"/>
+        <img src="../assets/web_tecnicatura.png"/>
     </div>
     <div className="conteTuds">
         <div className="gridCarr">

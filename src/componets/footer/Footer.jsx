@@ -4,11 +4,11 @@ function Footer() {
   return (
     <>
     <div>
-        <img src="../src/componets/footer/assets/wave.svg" alt="waveImg" />
+        <img src="../assets/wave.svg" alt="waveImg" />
         <div className='footerGrid'>
-            <div className="ps-5"><img src="../src/componets/footer/assets/telefono.png" alt="waveImg" /></div>
+            <div className="ps-5"><img src="../assets/telefono.png" alt="waveImg" /></div>
             <div className='contact'>
-                <h2>Informacion de Contacto</h2>
+                <h2>Información de Contacto</h2>
                 <p><span>Correo: </span>academia@cimne-iber.com.ar</p>
                 <p><span>Tel: </span> +54 9 3875 87-3263</p>
                 <p><span>Horario de Atencion: </span> 09:30 a 17:30h</p>

@@ -13,7 +13,7 @@ function Curso() {
 
     const accordionData = [
         {
-          title: 'Descripcion',
+          title: 'Descripción',
           content: `Mil Programadores se centra en la capacitación de salteños y salteñas en programación empleando los lenguajes PYTHON y JAVA como respuesta a la demanda puntual del sector de las Tecnologías de la Información y la Comunicación (TICs). Este proyecto se focaliza en la inserción en el mercado laboral de los perfiles capacitados y en la generación de un ecosistema de innovación y tecnología en Salta como visión de espacio generador de igualdad de oportunidades y desarrollo. Actualmente este proyecto se encuentra en su tercera edición.`
         },
         {
@@ -33,7 +33,7 @@ function Curso() {
     return (
         <>
         <div className="bannerCursos ban">
-            <img src="../src/componets/cursos/assets/web_1000pro.png"/>
+            <img src="../assets/web_1000pro.png"/>
         </div>
         <div className="requi">
             <div>
@@ -42,21 +42,21 @@ function Curso() {
                     {accordionData.map(({ title, content }) => (
                     // eslint-disable-next-line react/jsx-key
                     <Accordion title={title} content={content} />
-                    ))}
+                  ))}
                 </div>                
             </div>
             <div className="infoTec">
-                <h1>Informacion de Cursada</h1>
+                <h1>Información de Cursada</h1>
                 <div className="info">
-                    <img src="../src/componets/cursos/assets/calendario.png" alt="" />
+                    <img src="../assets/calendario.png" alt="" />
                     <p>Duracion: 5 Meses</p>
                 </div>
                 <div className="info">
-                    <img src="../src/componets/cursos/assets/reloj.png" alt="" />
+                    <img src="../assets/reloj.png" alt="" />
                     <p> Carga Horaria: 190 Horas</p>
                 </div>
                 <div className="info">
-                    <img src="../src/componets/cursos/assets/descargar.png" alt="" />
+                    <img src="../assets/descargar.png" alt="" />
                     <p>Descargar Programa</p>
                 </div>
             </div>
@@ -71,7 +71,7 @@ function Curso() {
                     <li> <i className='bx bxs-label' ></i>Todas las clases quedan grabadas.</li>
                 </ul> */}
                 </div>
-                <div><img className="imgGrid" src="../src/componets/cursos/assets/aprendizaje.jpg" alt="" /></div>
+                <div><img className="imgGrid" src="../assets/aprendizaje.jpg" alt="" /></div>
             </div>
         </div>
         {/* <div className="preguntas container">
