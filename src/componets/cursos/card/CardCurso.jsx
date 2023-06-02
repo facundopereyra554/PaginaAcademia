@@ -7,7 +7,7 @@ function CardCurso({nombre, descripcion,imgSrc,idCurso}) {
     <>
     <div>
         <img src={imgSrc} alt="CursosImg" />
-        <div className="cursosCard">
+        <div className="card">
             <h3>{nombre}</h3>
             <p>{descripcion}</p>
 

@@ -12,7 +12,7 @@ function Curso2() {
     const accordionData = [
         {
           title: 'Descripcion',
-          content: `Mil Programadores se centra en la capacitación de salteños y salteñas en programación empleando los lenguajes PYTHON y JAVA como respuesta a la demanda puntual del sector de las Tecnologías de la Información y la Comunicación (TICs). Este proyecto se focaliza en la inserción en el mercado laboral de los perfiles capacitados y en la generación de un ecosistema de innovación y tecnología en Salta como visión de espacio generador de igualdad de oportunidades y desarrollo. Actualmente este proyecto se encuentra en su tercera edición.`
+          content: `El proyecto se centra en la capacitación de jóvenes salteños en herramientas de programación empleando el lenguaje PYTHON como respuesta a la demanda puntual del sector de las Tecnologías de la Información y la Comunicación (TICs). Surge a partir de un trabajo mancomunado entre el Ministerio de Trabajo, Empleo y Seguridad Social de la Nación y la Fundación Centro Iberoamericano de Investigación CIMNE-IBER.`
         },
         {
           title: 'Que Aprenderas?',

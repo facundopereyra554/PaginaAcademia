@@ -12,3 +12,23 @@
     margin-top: 3rem;
     text-align: center;
 }
+
+.btnProgramadoras{
+    background-color: var(--primC);
+    border-radius: 20px;
+    color: var(--priM);
+    padding: 1.3rem;
+    margin: 0;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.btnProgramadoras:hover{
+    background-color: #663ec4;
+    transition: .3s;
+}
+
+.subsub{
+    font-size: 2.5rem;
+    margin: 2rem 0 ;
+}

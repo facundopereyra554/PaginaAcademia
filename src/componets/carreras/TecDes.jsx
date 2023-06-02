@@ -1,5 +1,5 @@
 /* eslint-disable react/jsx-key */
-
+import React, { useEffect } from 'react'
 import Footer from '../footer/Footer'
 import './TecDes.css'
 import CardCarrera from './cardCarrera/CardCarrera'
@@ -7,11 +7,16 @@ import CardCarrera from './cardCarrera/CardCarrera'
 
 function TecDes() {
 
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
+
     let carreras = [
         {
             idCarrera: 1,
             nombre: "Tecnicatura en Desarrollo de Software",
-            descripcion: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, officiis.",
+            descripcion: "Tiene como objetivo principal la formación tecnológica de hombres y mujeres de conformidad a nuevas demandas",
             imagen:"../src/componets/carreras/assets/tuds.jpg",
         },
     ]

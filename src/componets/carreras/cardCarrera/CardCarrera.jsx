@@ -10,7 +10,7 @@ function CardCarrera({nombre, descripcion,imgSrc,idCarrera}) {
         <h3>{nombre}</h3>
         <p>{descripcion}</p>
 
-        <Link to={`/Carrera${idCarrera}`} className="linkCurso">Ver Carrera</Link>                   
+        <Link to={`/Carrera${idCarrera}`} className="linkCurso">Ver Mas</Link>                   
     </div>
     </div>    
     </>

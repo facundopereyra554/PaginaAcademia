@@ -135,7 +135,7 @@ h1 {
 }
 .gridIscr{
     padding: 5rem;
-    color: var(--primC);  
+    color: var(--primC); 
 }
 
 @media (min-width:760px) {
