@@ -7,6 +7,7 @@
     background-color: var( --secMC);
     cursor: pointer;
     animation: flotar 3s ease-in-out infinite;
+    z-index: 9999;
 }
 
 .circleIcon>img{
@@ -14,17 +15,34 @@
 }
 
 .newBox{
-    height: 40rem;
-    width: 40rem;
-    border-radius: 20px 0 0 20px;
-    background-color: aliceblue;
+    height: 70%;
+    width: 70%;;
+    background-color: var(--priM);
     position: fixed;
-    bottom: 9rem;
-    right: 10rem;
-    z-index: 99;
+    top: 20%;
+    left: 13%;
+    z-index: 9999;
     overflow-y: scroll;
+    border-radius: 10px;
     padding: 1rem 2rem;
 }
+
+.newBox::-webkit-scrollbar {
+    width: 10px;               
+  }
+  
+  .newBox::-webkit-scrollbar-track {
+    background: var(--priM);
+    border-radius: 0 10px 10px 0;        
+  }
+  
+  .newBox::-webkit-scrollbar-thumb {
+    background-color: var(--primC);    
+    border-radius: 20px;       
+
+    border-radius: 0 10px 10px 10;   
+
+  }
 
 @media (max-width:760px) {
     .circleIcon{
@@ -36,13 +54,6 @@
         width: 5rem;
     }
 
-    .newBox{
-        height: 70%;
-        width: 70%;
-        bottom: 10rem;
-        right: 9rem; 
-    }
-    
 }
 
 .dactive{
@@ -51,17 +62,20 @@
 
 .newBox>h2{
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--secMC);
     margin-bottom: 2rem;
 }
 
 .newBox>h3{
     margin: 0 0 2rem 0;
+    color: var(--primC);
+    text-align: center;
 }
 
 .newBox>p{
     font-size: 1.5rem;
+    color: var(--primC);
 }
 
 .newBox>img{
@@ -89,4 +103,12 @@
     text-align: end;
     color: var(--secMC);
     cursor: pointer;
+}
+
+.blurNews{
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    position: fixed;
+    z-index: 999;
 }

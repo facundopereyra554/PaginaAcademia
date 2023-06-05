@@ -25,6 +25,7 @@ function App() {
         <reactRouterDom.Route path="/Carrera1" element={<Carrera1 />} />
 
       </reactRouterDom.Routes>
+      
     </reactRouterDom.BrowserRouter>
   );
 }
