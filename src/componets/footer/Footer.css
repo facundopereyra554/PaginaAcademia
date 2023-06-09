@@ -19,7 +19,6 @@
 }
 
 
-
 .contact{
     margin-top: 5rem;
     padding-left: 5rem;
@@ -27,14 +26,14 @@
 
 .contact>h2{
     font-size: 3rem;
-    color: var(--primC);   
+    color: whitesmoke;   
     margin-bottom: 2rem;
     text-align: left;
 }
 
 .contact>p{
     font-size: 1.5rem;
-    color: var(--primC);    
+    color: whitesmoke;    
     text-align: left;
 }
 
@@ -49,13 +48,13 @@
 
 .redes>h2{
     font-size: 3rem;
-    color: var(--primC);   
+    color: whitesmoke;   
     margin-bottom: 2rem;
 }
 
 .redes>p{
     font-size: 1.5rem;
-    color: var(--primC);
+    color: whitesmoke;
 }
 
 .red-social>a{

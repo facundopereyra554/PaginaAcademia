@@ -55,6 +55,7 @@
 
 .box{
     background-color: var(--priM);
+    color: whitesmoke;
 }
 
 .box1{
@@ -84,7 +85,7 @@
 }
 
 .colorL{
-    color: var(--primC);
+    color: whitesmoke;
 }
 
 .aling{
@@ -130,6 +131,33 @@
     color: var(--priM)
 }
 
+.plataforma>h3{
+    margin-top: 7rem;
+    font-size: 3.5rem;
+    color: var(--priM);
+    font-weight: bold;
+}
+
+.plataforma>p{
+    font-size: 1.5rem;
+    color: var(--priM)
+}
+
+
+.navlink{
+    background-color: var(--priM);
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    transition: .3s;
+    border-radius: 10px;
+}
+
+.navlink:hover{
+    background-color: #2b2b55;
+    color: whitesmoke;
+    transition: .3s;
+}
 
 .timeline-Container{
     margin-bottom: 5rem;
@@ -181,12 +209,15 @@
 .opinions{  
     background-color: var(--priM);
     padding: 6rem;
+
 }
+
+
 
 .opinions>h3{
     font-size: 3rem;
     margin-bottom: 5rem;
-    color: var(--primC);    
+    color: whitesmoke;
 }
 
 .opinionsGrid{
@@ -303,8 +334,8 @@
 .row-2 section::before{
     left: -7px;
 }
-.row section .icon,
-.center-line .scroll-icon{
+.row section .iconon,
+.center-line .scroll-iconon{
     position: absolute;
     background: var(--secMC);
     height: 40px;
@@ -316,17 +347,17 @@
     font-size: 17px;
     box-shadow: 0 0 0 4px #fff, inset 0 2px 0 rgba(0,0,0,0.08), 0 3px 0 4px rgba(0,0,0,0.05);
 }
-.center-line .scroll-icon{
+.center-line .scroll-iconon{
     bottom: 0px;
     left: 50%;
     font-size: 25px;
     transform: translateX(-50%);
 }
-  .row-1 section .icon{
+  .row-1 section .iconon{
     top: 15px;
     right: -60px;
 }
-.row-2 section .icon{
+.row-2 section .iconon{
     top: 15px;
     left: -60px;
 }
@@ -373,14 +404,14 @@
     .row-1 section::before{
       left: -7px;
     }
-    .row-1 section .icon{
+    .row-1 section .iconon{
       left: -60px;
     }
 }
 @media(max-width: 440px){
     .wrapperSli .center-line,
     .row section::before,
-    .row section .icon{
+    .row section .iconon{
       display: none;
     }
     .wrapperSli .row{

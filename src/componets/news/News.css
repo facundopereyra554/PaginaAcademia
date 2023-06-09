@@ -63,19 +63,20 @@
 .newBox>h2{
     text-align: center;
     font-size: 4rem;
-    color: var(--secMC);
+    color: whitesmoke;
     margin-bottom: 2rem;
+    font-weight: bold;
 }
 
 .newBox>h3{
     margin: 0 0 2rem 0;
-    color: var(--primC);
+    color: whitesmoke;
     text-align: center;
 }
 
 .newBox>p{
     font-size: 1.5rem;
-    color: var(--primC);
+    color: whitesmoke;
 }
 
 .newBox>img{
@@ -101,7 +102,7 @@
     font-size: 3rem;
     margin: 0;
     text-align: end;
-    color: var(--secMC);
+    color: rgb(194, 5, 5);
     cursor: pointer;
 }
 
@@ -111,4 +112,27 @@
     backdrop-filter: blur(5px);
     position: fixed;
     z-index: 999;
+}
+
+.newsLink{
+    text-decoration: none;
+    background-color: var(--primC);
+    padding: .7rem 2rem;
+    border-radius: 10px;
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
+
+.list{
+    color: whitesmoke;
+    font-size: 1.4rem;
+}
+
+.list>li{
+    padding-bottom: .5rem;
+}
+
+.greentitle{
+    background-color: var(--terV);
+    color: var(--priM);
 }

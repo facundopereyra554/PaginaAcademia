@@ -49,3 +49,39 @@ body::-webkit-scrollbar {
   body::-webkit-scrollbar-thumb {
     background-color: var(--primC);
   }
+
+  
+.per{
+    width: 50%;
+    height: 260px;
+    margin: 0 auto;
+}
+
+
+.conte{
+    padding: 0 90px;
+    text-align: justify;
+    color: whitesmoke;
+}
+
+.conte>p{
+    border: 1px solid white;   
+    padding: 30px;
+    font-size: 1.5rem; 
+}
+
+@media (max-width: 1100px) {
+    .per{
+        width: 100%;
+        height: auto;
+        margin: 1px;
+    }
+    .conte{
+        
+        padding: 5px;
+    }
+
+    .conte>p{
+        text-align: left;
+    }
+}

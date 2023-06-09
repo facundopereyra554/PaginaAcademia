@@ -22,6 +22,14 @@ function Footer() {
                         <a href="https://www.youtube.com/channel/UCiAHFbMRA0JXI1oR5Dn4Tkg" target="_blank"><i className='bx bxl-youtube fs-1'></i></a>
                         <a href="https://www.linkedin.com/company/academiacimneiber/" target="_blank"><i className='bx bxl-linkedin-square fs-1'></i></a>
                     </div>
+                {/* <h2>Plataforma Educativa</h2>
+                    <div>
+                        <p>
+                            A través de nuestra propia plataforma de aprendizaje facilitamos el acceso al material de estudio, foros de consulta/debate que fomentan el intercambio de conocimiento entre estudiantes y docentes.
+                            Habilitamos espacios de autoevaluación a través de cuestionarios que permiten que los participantes reciban un feedback sobre su evolución durante el cursado y detecten sobre qué temas profundizar y mejorar. <br />
+                            <a href="https://plataforma.academiacimneiber.com/index.php">Plataforma</a>
+                        </p>
+                    </div> */}
             </div>
         </div>
     </div>
