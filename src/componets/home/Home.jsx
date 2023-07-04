@@ -1,6 +1,6 @@
 
 import Footer from "../footer/Footer"
-import News from "../news/News";
+// import News from "../news/News";
 import "./Home.css"
 import { useEffect } from "react";
 import Carrusel from "./Carrusel";
@@ -17,7 +17,7 @@ function Home() {
     <>
     
     <section className="home">
-        <News/>
+        {/* <News/> */}
         <div className="banner">
             <div>
                 <img src="../assets/logoClaro1.png" alt="" />

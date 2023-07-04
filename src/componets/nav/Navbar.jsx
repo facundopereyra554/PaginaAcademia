@@ -8,6 +8,7 @@ import  { useEffect } from "react"
 function Navbar() {
 
 
+
     useEffect(() => {
         const scrollWatcher = () => {
           const navBar = document.querySelector(".navbar");
@@ -21,8 +22,6 @@ function Navbar() {
         window.addEventListener("scroll", scrollWatcher);
 
     }, []);
-
-
 
 
 
