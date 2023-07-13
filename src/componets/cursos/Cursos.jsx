@@ -42,14 +42,17 @@ function Cursos() {
         <div className="bannerCursos ban">
             <img src="../assets/curT.png" alt="" />
         </div>
-        <div className="cursosGrid">
-            {
-                cursos.map((curso) => {
-                    return(<CardCurso nombre={curso.nombre} descripcion={curso.descripcion} idCurso={curso.idCurso} imgSrc={curso.imagen}/>)
-                })
-            }
-            
+        <div className="center">
+            <div className="cursosGrid">
+                {
+                    cursos.map((curso) => {
+                        return(<CardCurso nombre={curso.nombre} descripcion={curso.descripcion} idCurso={curso.idCurso} imgSrc={curso.imagen}/>)
+                    })
+                }
+                
+            </div>            
         </div>
+
         <Footer/>
         </>
     )

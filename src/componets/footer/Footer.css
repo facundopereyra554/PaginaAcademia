@@ -2,9 +2,8 @@
     background-color: var(--priM);  
     text-align: center;  
 }
-.footerGrid>div>img{
-    width: 50%;
-} 
+
+
 
 @media (min-width:760px) {
     .footerGrid{
@@ -13,6 +12,18 @@
         gap: 1rem;
 
     }
+    .footerGrid>div>img{
+        width: 40%; 
+    }  
+}
+
+@media (max-width:760px) {
+    .footerGrid>div>img{
+        display: none;
+    }  
+}
+
+@media (max-width:1200px) {
     .footerGrid>div>img{
         width: 100%;
     }  
