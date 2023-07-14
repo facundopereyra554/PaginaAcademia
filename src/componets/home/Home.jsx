@@ -128,10 +128,6 @@ function Home() {
                             <span className="title">Introducción a la Programación con Python - 1° cohorte</span>
                             <span className="fe">Octubre a Diciembre 2021</span>
                         </div>
-                        <p>El proyecto se centró en la capacitación de jóvenes salteños en herramientas de 
-                            programación empleando el lenguaje PYTHON como respuesta a la demanda puntual del sector de 
-                            las Tecnologías de la Información y la Comunicación (TICs).
-                        </p>
                     </section>
                 </div>
                 <div className="row row-2">
@@ -141,8 +137,6 @@ function Home() {
                             <span className="title">Introducción a la <br /> Programación con Java</span>
                             <span className="fe">Marzo a Junio 2022</span>
                         </div>
-                        <p>Tras el éxito Mil Programadores, en marzo de 2022 lanzamos una nueva edición enfocada en el lenguaje Java con el objetivo de continuar formando a jóvenes y adultos en programación. En esta segunda edición implementamos nuevas estrategias de enseñanza junto a un challenge que permitió que los participantes vivan la experiencia del trabajo en equipo.</p>
-
                     </section>
                 </div>
 
@@ -153,8 +147,6 @@ function Home() {
                             <span className="title">Programadoras</span>
                             <span className="fe">Octubre a Diciembre 2022</span>
                         </div>
-                        <p>Sabemos lo difícil que resulta como mujer insertarse en el mundo de la programación porque una vez estuvimos donde estás vos. Programadoras, busca formar mujeres y diversidades en programación y brindarles herramientas que les permitan dejar atrás los trabajos tradicionales y estereotipados. ¿Tenés dudas? Te invitamos a conocer un poco más de qué se trata.</p>
-
                     </section>
                 </div>
 
@@ -165,11 +157,6 @@ function Home() {
                             <span className="title">PHIIP</span>
                             <span className="fe">Octubre a Diciembre 2022</span>
                         </div>
-                        <p>De acuerdo a estos puntos, fue clave diseñar un programa de perfeccionamiento en el 
-                            uso de herramientas digitales e introducción a la programación que sirva como base para 
-                            luego poder aprovechar más eficientemente el curso de Programadoras
-                        </p>
-
                     </section>
                 </div>
                 <div className="row row-1">
@@ -179,24 +166,95 @@ function Home() {
                             <span className="title">Introducción a la Programación con Python - 2° cohorte</span>
                             <span className="fe">Agosto a diciembre 2022</span>
                         </div>
-                        <p>La tercera edición de Mil Programadores comenzó en agosto de 2022 empleando nuevamente Python, uno de los lenguajes más solicitados por los estudiantes. Durante este curso implementamos desafíos y un proyecto integrador para que los participantes pongan en práctica los conocimientos que adquirieron en el cursado. También trabajos junto al equipo de tutores para brindar una atención personalizada en cada una las comisiones.</p>
-
                     </section>
                 </div>
                 <div className="row row-2">
                     <section data-aos="fade-left"> 
                         <i className="iconon fas fa-map-marker-alt"></i>
                         <div className="details">
+                            <span className="title">Introducción a la Programación con Python 1° edición</span>
+                            <span className="fe">Noviembre a marzo 2022/2023</span>
+                        </div>
+                    </section>
+                </div>
+                <div className="row row-1">
+                    <section data-aos="fade-right">
+                        <i className="iconon fas fa-star"></i>
+                        <div className="details">
                             <span className="title">Tecnicatura universitaria en desarrollo de software</span>
                             <span className="fe">Octubre de 2022 - Actualidad</span>
                         </div>
-                        <p>La Tecnicatura Universitaria en Desarrollo de Software tiene por objetivo la formación 
-                            de tecnológica de hombres y mujeres de conformidad a nuevas demandas y necesidades 
-                            formativas de habilitades y/o competencias solicitadas por los sectores productivos de la Provincia.
-                        </p>
-
                     </section>
                 </div>
+                <div className="row row-2">
+                    <section data-aos="fade-left"> 
+                        <i className="iconon fas fa-rocket"></i>
+                        <div className="details">
+                            <span className="title">Mil Programadores Python - 3° edición</span>
+                            <span className="fe">Marzo a Agosto 2023</span>
+                        </div>
+                    </section>
+                </div>
+
+                <div className="row row-1">
+                    <section data-aos="fade-right">
+                        <i className="iconon fas fa-globe"></i>
+                        <div className="details">
+                            <span className="title">Introducción a la Programación con python 2da edicion</span>
+                            <span className="fe">Marzo a agosto 2023</span>
+                        </div>
+                    </section>
+                </div>
+
+                <div className="row row-2">
+                    <section data-aos="fade-left"> 
+                        <i className="iconon fas fa-paper-plane"></i>
+                        <div className="details">
+                            <span className="title">PHIIP 1</span>
+                            <span className="fe">Abril - Agosto 2023</span>
+                        </div>
+                    </section>
+                </div>
+
+
+                <div className="row row-1">
+                    <section data-aos="fade-right">
+                        <i className="iconon fas fa-map-marker-alt"></i>
+                        <div className="details">
+                            <span className="title">PHIIP 2</span>
+                            <span className="fe">Abril - Agosto 2023</span>
+                        </div>
+                    </section>
+                </div>
+
+                
+
+                <div className="row row-2">
+                    <section data-aos="fade-left"> 
+                        <i className="iconon fas fa-star"></i>
+                        <div className="details">
+                            <span className="title">Introducción al Desarrollo con Python</span>
+                            <span className="fe">Abril - Agosto 2023</span>
+                        </div>
+                    </section>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             </div>
         </div>
 
